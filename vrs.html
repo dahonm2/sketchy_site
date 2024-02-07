@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wewewew
+        
+    </title>
+
+    <script>
+
+const buttonHeight = 50;
+const buttonWidht = 150;
+
+const maxWidth = window.innerWidth - buttonWidht;
+const maxHeight = window.innerHeight - buttonHeight;
+
+window.addEventListener('DOMContentLoaded', () => {
+
+    const button = document.getElementById('no');
+
+    button.addEventListener('click', () => alert(''));
+
+    button.addEventListener('mouseover', () => {
+        button.style.left = Math.floor(Math.random() * (maxWidth + 1)) + 'px';
+        button.style.top = Math.floor(Math.random() * (maxHeight + 1)) + 'px';
+    });
+});
+
+window.addEventListener('DOMContentLoaded', () => {
+
+    const button2 = document.getElementById('yes');
+
+    button2.addEventListener('click', () => alert('SEEE YA AT VALENTINES, CUTIEEE><'));
+
+});
+    </script>
+
+    <style>
+
+button {
+
+color: rgb(24, 6, 6);
+width: 150px;
+height: 50px;
+padding: 5px;
+background-color: rgb(151, 73, 224);
+
+position: absolute;
+top: 450px;
+left: 330-px;
+
+}
+
+
+    </style>
+
+    
+
+</head>
+<body>
+    
+   <center><h1>wanna spend ur valentines with mee?^^ </h1></center>
+   <center><img src="pussycatt.gif" alt="cat"></center> 
+
+   
+    <center><button style="background-color: rgb(152, 238, 23); padding: 5px; width: 150px; height: 50px; color: black;"  id="yes">YES!</button></center>
+    <button id="no">NO!</button>
+
+   
+
+</body>
+</html>
